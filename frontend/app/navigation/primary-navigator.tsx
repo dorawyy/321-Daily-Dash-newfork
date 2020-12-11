@@ -1,4 +1,4 @@
-/* eslint-disable react/display-name */
+
 /**
  * This is the navigator you will modify to display the logged-in screens of your app.
  * You can use RootNavigator to also display an auth flow or other user flows.

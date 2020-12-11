@@ -142,7 +142,6 @@ export const HomeScreen = observer(function HomeScreen() {
 
   useEffect(() => {
     getGoals();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const setCompleted = (goal: DailyGoal, newVal: boolean) => {

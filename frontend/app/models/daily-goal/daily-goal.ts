@@ -17,7 +17,7 @@ export const DailyGoalModel = types
     getTime: () => {
       return self.time + 0;
     }
-  })) // eslint-disable-line @typescript-eslint/no-unused-vars
+  })) 
   .actions(self => ({
     setCancelled(cancelled: boolean) {
       self.cancelled = cancelled;
@@ -39,7 +39,7 @@ export const DailyGoalModel = types
           });
       }
     }
-  })); // eslint-disable-line @typescript-eslint/no-unused-vars
+  })); 
 
 /**
   * Un-comment the following to omit model attributes from your snapshots (and from async storage).

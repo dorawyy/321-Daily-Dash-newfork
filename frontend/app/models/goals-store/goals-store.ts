@@ -187,7 +187,7 @@ export const GoalsStoreModel = types
     STsuggestion: "",
   })
   .extend(withEnvironment)
-  .views(self => ({})) // eslint-disable-line @typescript-eslint/no-unused-vars
+  .views(self => ({})) 
   .actions(self => ({
     setLTgoals: (LTgoalsList) => {
       if (LTgoalsList) {
@@ -268,7 +268,7 @@ export const GoalsStoreModel = types
         __DEV__ && console.error(err);
       });
     },
-  })); // eslint-disable-line @typescript-eslint/no-unused-vars
+  })); 
 
 /**
   * Un-comment the following to omit model attributes from your snapshots (and from async storage).

@@ -16,8 +16,8 @@ export const StGoalModel = types
     sat: types.optional(types.array(types.integer), []),
     sun: types.optional(types.array(types.integer), [])
   })
-  .views(self => ({})) // eslint-disable-line @typescript-eslint/no-unused-vars
-  .actions(self => ({})); // eslint-disable-line @typescript-eslint/no-unused-vars
+  .views(self => ({})) 
+  .actions(self => ({})); 
 
 /**
   * Un-comment the following to omit model attributes from your snapshots (and from async storage).

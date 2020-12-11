@@ -12,7 +12,7 @@ export const StGoalFormModel = types
     title: "",
     timeForm: types.optional(types.array(TimeFormModel), []),
   })
-  .views(self => ({})) // eslint-disable-line @typescript-eslint/no-unused-vars
+  .views(self => ({}))
   .actions(self => ({
     setTitle(title: string) {
       self.title = title;
@@ -34,7 +34,7 @@ export const StGoalFormModel = types
     deleteTimeSlot() {
       if (self.timeForm.length > 1) self.timeForm.pop();
     },
-  })); // eslint-disable-line @typescript-eslint/no-unused-vars
+  })); 
 
 /**
   * Un-comment the following to omit model attributes from your snapshots (and from async storage).

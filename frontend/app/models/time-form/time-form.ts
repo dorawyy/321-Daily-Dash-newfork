@@ -12,7 +12,7 @@ export const TimeFormModel = types
     minute: "",
     meridies: ""
   })
-  .views(self => ({})) // eslint-disable-line @typescript-eslint/no-unused-vars
+  .views(self => ({})) 
   .actions(self => ({
     setDay(day: string) {
       self.day = day;
@@ -26,7 +26,7 @@ export const TimeFormModel = types
     setMeridiem(val: string) {
       self.meridies = val;
     }
-  })); // eslint-disable-line @typescript-eslint/no-unused-vars
+  }));
 
 /**
   * Un-comment the following to omit model attributes from your snapshots (and from async storage).

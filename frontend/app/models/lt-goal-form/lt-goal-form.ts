@@ -13,7 +13,7 @@ export const LtGoalFormModel = types
     id: "",
     STgoalForm: types.optional(types.array(StGoalFormModel), []),
   })
-  .views(self => ({})) // eslint-disable-line @typescript-eslint/no-unused-vars
+  .views(self => ({}))
   .actions(self => ({
     setId(id: string) {
       self.id = id;
@@ -59,7 +59,7 @@ export const LtGoalFormModel = types
       self.description = "";
       self.STgoalForm.length = 0;
     },
-  })); // eslint-disable-line @typescript-eslint/no-unused-vars
+  })); 
 
 /**
   * Un-comment the following to omit model attributes from your snapshots (and from async storage).

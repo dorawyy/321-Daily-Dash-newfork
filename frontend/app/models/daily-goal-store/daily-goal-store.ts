@@ -17,7 +17,7 @@ export const DailyGoalStoreModel = types
     getRemainingCount(): number {
       return self.goals.filter((g) => !(g.cancelled || g.completed)).length;
     },
-  })) // eslint-disable-line @typescript-eslint/no-unused-vars
+  })) 
   .actions((self) => ({
     addGoal(goal) {
       self.goals.push({
@@ -74,7 +74,7 @@ export const DailyGoalStoreModel = types
     },
   }));
 
-// eslint-disable-line @typescript-eslint/no-unused-vars
+
 /**
   * Un-comment the following to omit model attributes from your snapshots (and from async storage).
   * Useful for sensitive data like passwords, or transitive state like whether a modal is open.

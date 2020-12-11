@@ -78,7 +78,7 @@ export const UserStoreModel = types
       if (validAwards.length === 0 && includeNoAward) return [noAward];
       return validAwards;
     },
-  })) // eslint-disable-line @typescript-eslint/no-unused-vars
+  })) 
   .actions(self => ({
     setUser: (user) => {
       if (user) { __DEV__ && console.log("Setting user " + user.toString()); } else { __DEV__ && console.log("unsetting user"); }
